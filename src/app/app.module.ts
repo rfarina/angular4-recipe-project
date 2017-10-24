@@ -3,21 +3,21 @@ import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { ShoppingListComponent } from './shopping/shopping-list/shopping-list.component';
-import { ShoppingListEditComponent } from './shopping/shopping-list-edit/shopping-list-edit.component';
+import { HeaderComponent } from './header/header.component';
 import { RecipiesComponent } from './recipe/recipies/recipies.component';
 import { RecipeListComponent } from './recipe/recipe-list/recipe-list.component';
-import { RecipeListItemComponent } from './recipe/recipe-list-item/recipe-list-item.component';
 import { RecipeDetailComponent } from './recipe/recipe-detail/recipe-detail.component';
-import { HeaderComponent } from './header/header.component';
+import { RecipeItemComponent } from './recipe/recipe-item/recipe-item.component';
+import { ShoppingListComponent } from './shopping/shopping-list/shopping-list.component';
+import { ShoppingEditComponent } from './shopping/shopping-edit/shopping-edit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ShoppingListComponent,
-    ShoppingListEditComponent,
+    ShoppingEditComponent,
     RecipeListComponent,
-    RecipeListItemComponent,
+    RecipeItemComponent,
     RecipeDetailComponent,
     HeaderComponent,
     RecipiesComponent
